@@ -43,5 +43,5 @@ grunt test
 - run your lambda 
 
 ```
-serverless invoke hello
+serverless invoke -f hello
 ```
