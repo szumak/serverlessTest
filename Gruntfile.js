@@ -7,10 +7,12 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     exec: {
-      deploy: 'serverless deploy -v --stage ' + environment
+      deploy: 'serverless deploy -v --stage ' + environment,
+      test: 'mocha ./test/test.js'
     }
   });
 
   grunt.registerTask('deploy', ["exec:deploy"]);
+  grunt.registerTask('test', ["exec:test"]);
 
 };

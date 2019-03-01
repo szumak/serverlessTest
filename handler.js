@@ -11,6 +11,6 @@ var main_response = {
 };
 
 module.exports.hello = function(request, context, callback) {
-  main_response.body = "{ message: 'Hello World'";
+  main_response.body = "{ message: 'Hello World'}";
   callback(null, main_response);
 }
