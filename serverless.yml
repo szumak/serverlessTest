@@ -1,0 +1,14 @@
+service: serverlessHello
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: ap-southeast-2
+  stage: ${opt:stage, 'dev'}
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: /say
+          method: get
+          cors: true

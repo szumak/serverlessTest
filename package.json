@@ -1,0 +1,19 @@
+{
+  "name": "serverless_hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-exec": "^3.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "request": "^2.88.0",
+    "should": "^13.2.3"
+  }
+}
