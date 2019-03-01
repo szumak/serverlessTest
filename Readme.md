@@ -1,4 +1,5 @@
-this is a very basic serverless application
+this is a very basic serverless application. 
+It will deploy API Gateway with your lambda function behind. 
 
 
 # How to 
@@ -37,4 +38,10 @@ grunt
 
 ```
 grunt test
+```
+
+- run your lambda 
+
+```
+serverless invoke hello
 ```
